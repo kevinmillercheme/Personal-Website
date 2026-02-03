@@ -1,0 +1,216 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerItems {
+    display: flex;
+    background-color: lightskyblue;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#kidsName {
+    padding: 10px;
+    color: navy;
+}
+
+#menuElement {
+    padding: 10px;
+    color: navy;
+}
+
+#headshot {
+    padding: 50px;
+    display: block;
+    max-width: 25%;
+    height: auto;
+}
+
+#h1Index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    text-align: left;
+}
+
+#pIndex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    text-align: left;
+}
+
+#h1About {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pAbout {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px navy;
+    padding: 5px 0;
+}
+
+#pAbout {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+#h2About {
+    margin: 0;
+    display: flex;
+    align-self: flex-start;
+    padding: 10px 0;
+
+}
+
+#bodyStruct {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.aboutMidPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+#h2Img {
+    display: flex;
+    width: 500px;
+    height: auto;
+}
+
+.portfolioMidPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+#h1Portfolio {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pPortfolio {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px navy;
+    padding: 5px 0;
+}
+
+#pPortfolioNoLine {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+#h2Portfolio {
+    margin: 0;
+    display: flex;
+    align-self: flex-start;
+    padding: 10px 0;
+}
+
+.contactMidPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+#pContact {
+    display: flex;
+    align-self: flex-start;
+    padding: 0;
+    margin: 5px;
+}
+
+#contactImg {
+    width: 400px;
+    height: auto;
+}
+
+#contactEnter {
+    width: 400px;
+}
+
+#contactButton {
+    cursor: pointer;
+    margin: 15px auto;
+    width: 150px;
+    height: 40px;
+}
+
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
